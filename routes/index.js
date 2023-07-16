@@ -8,7 +8,7 @@ router.use('/map', mapRoutes);
 
 // starting route
 router.get('/', (req, res) => {
-    res.send('Welcome to the API'); 
+    res.send('Welcome to the APP'); 
 }); 
 
 module.exports = router; 
